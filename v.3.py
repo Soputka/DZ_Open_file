@@ -20,4 +20,4 @@ for directory in directories:
                 new_text.write(str(len(all_files[file])) + '\n')
                 new_text.writelines(all_files[file] + ['\n'])
     else:
-        print("Can not find the folder txt_for_v.3 with files")
+        print("Папки txt_for_v.3 с файлами нет")
